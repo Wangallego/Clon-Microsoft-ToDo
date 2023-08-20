@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+/* Agrega estas líneas al final de tu archivo CSS para definir la clase shadow-top */
+.shadow-top {
+ 
+  border: 1px solid rgba(0, 0, 0, 0.226);
+}
+
+/* Agrega estilos para mostrar el aside */
+.visible {
+  display: block;
+}
