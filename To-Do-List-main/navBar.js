@@ -6,7 +6,7 @@ const burguer = document.getElementById('desplegable');
 function toggleAside() {
     asideDiv.classList.toggle('w-0');
     burguer.classList.toggle('bi-list');
-    burguer.classList.toggle('bi-arrow-bar-left');
+    burguer.classList.toggle('bi-arrow-bar-left','p-6','ml-52','mb-[4rem]');
     burguer.classList.toggle('ml-52');
     burguer.classList.toggle('mb-4');
 }
